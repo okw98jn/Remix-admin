@@ -1,7 +1,7 @@
 import { Outlet } from '@remix-run/react'
 import { FC } from 'react'
-import styles from '../styles/admin/layout.module.css'
-import Header from '~/components/admin/header/Header'
+import styles from './layout.module.css'
+import Header from './header/Header'
 
 const adminLayout: FC = () => {
     return (

@@ -9,8 +9,8 @@ import {
     NavigationMenuTrigger,
 } from "../../../components/ui/navigation-menu"
 import { Link } from "@remix-run/react"
-import Icon from "~/components/atoms/Icon"
-import { headerMenuList } from "~/const/AdminConst"
+import { headerMenuList } from "../Const"
+import Icon from "~/components/ui/Icon"
 
 const HeaderNavigationMenu: FC = memo(() => {
     return (
